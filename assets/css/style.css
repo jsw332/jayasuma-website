@@ -1124,3 +1124,8 @@ section {
   scrollbar-width: none;
   /* Firefox */
 }
+
+p::selection ,li::selection{
+  background: #630000;
+  color: #fff;
+}
