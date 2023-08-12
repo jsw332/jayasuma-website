@@ -1,14 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -52,13 +42,18 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #fff9c9;
+  line-height: 0;
+}
+.back-to-top i:hover {
+  font-size: 28px;
+  color: #630000;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #2eafec;
-  color: #fff;
+  background: #FFF9C9;
+  color: #000 !important;
 }
 
 .back-to-top.active {
@@ -153,10 +148,6 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
 }
@@ -222,7 +213,7 @@ h6 {
   transition: all 0.4s;
   outline: none !important;
   background-color: #630000;
-  color: #fff;
+  color: #fff9c9;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -266,7 +257,6 @@ h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 800px;
 }
 
 #hero h1 {
@@ -419,14 +409,14 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #630000;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: #630000;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
@@ -1128,4 +1118,8 @@ section {
 p::selection ,li::selection{
   background: #630000;
   color: #fff;
+}
+
+.ic{
+  margin-left: 40px;
 }
