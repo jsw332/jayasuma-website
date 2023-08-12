@@ -140,6 +140,7 @@
       backSpeed: 50,
       backDelay: 2000
     });
+    typed.style.textShadow = "0px 0px 50px #000";
   }
 
   /**
